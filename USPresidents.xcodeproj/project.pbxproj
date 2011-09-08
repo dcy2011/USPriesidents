@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DB5ADAB14103FEA00EE4427 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB5ADAA14103FEA00EE4427 /* UIKit.framework */; };
+		6DB5ADAD14103FEA00EE4427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB5ADAC14103FEA00EE4427 /* Foundation.framework */; };
+		6DB5ADAF14103FEA00EE4427 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB5ADAE14103FEA00EE4427 /* CoreGraphics.framework */; };
+		6DB5ADB514103FEA00EE4427 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DB5ADB314103FEA00EE4427 /* InfoPlist.strings */; };
+		6DB5ADB814103FEA00EE4427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB5ADB714103FEA00EE4427 /* main.m */; };
+		6DB5ADBB14103FEA00EE4427 /* USPresidentsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB5ADBA14103FEA00EE4427 /* USPresidentsAppDelegate.m */; };
+		6DB5ADBE14103FEA00EE4427 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB5ADBC14103FEA00EE4427 /* MainWindow.xib */; };
+		6DB5ADC114103FEA00EE4427 /* USPresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB5ADC014103FEA00EE4427 /* USPresidentsViewController.m */; };
+		6DB5ADC414103FEA00EE4427 /* USPresidentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB5ADC214103FEA00EE4427 /* USPresidentsViewController.xib */; };
+		6DB5ADCC1410426C00EE4427 /* Presidents4.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB5ADCB1410426C00EE4427 /* Presidents4.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DB5ADA614103FEA00EE4427 /* USPresidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USPresidents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB5ADAA14103FEA00EE4427 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6DB5ADAC14103FEA00EE4427 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6DB5ADAE14103FEA00EE4427 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6DB5ADB214103FEA00EE4427 /* USPresidents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "USPresidents-Info.plist"; sourceTree = "<group>"; };
+		6DB5ADB414103FEA00EE4427 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DB5ADB614103FEA00EE4427 /* USPresidents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USPresidents-Prefix.pch"; sourceTree = "<group>"; };
+		6DB5ADB714103FEA00EE4427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DB5ADB914103FEA00EE4427 /* USPresidentsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USPresidentsAppDelegate.h; sourceTree = "<group>"; };
+		6DB5ADBA14103FEA00EE4427 /* USPresidentsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USPresidentsAppDelegate.m; sourceTree = "<group>"; };
+		6DB5ADBD14103FEA00EE4427 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6DB5ADBF14103FEA00EE4427 /* USPresidentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USPresidentsViewController.h; sourceTree = "<group>"; };
+		6DB5ADC014103FEA00EE4427 /* USPresidentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USPresidentsViewController.m; sourceTree = "<group>"; };
+		6DB5ADC314103FEA00EE4427 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/USPresidentsViewController.xib; sourceTree = "<group>"; };
+		6DB5ADCA1410426C00EE4427 /* Presidents4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presidents4.h; sourceTree = "<group>"; };
+		6DB5ADCB1410426C00EE4427 /* Presidents4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presidents4.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB5ADA314103FEA00EE4427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB5ADAB14103FEA00EE4427 /* UIKit.framework in Frameworks */,
+				6DB5ADAD14103FEA00EE4427 /* Foundation.framework in Frameworks */,
+				6DB5ADAF14103FEA00EE4427 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DB5AD9B14103FEA00EE4427 = {
+			isa = PBXGroup;
+			children = (
+				6DB5ADCA1410426C00EE4427 /* Presidents4.h */,
+				6DB5ADCB1410426C00EE4427 /* Presidents4.m */,
+				6DB5ADB014103FEA00EE4427 /* USPresidents */,
+				6DB5ADA914103FEA00EE4427 /* Frameworks */,
+				6DB5ADA714103FEA00EE4427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB5ADA714103FEA00EE4427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB5ADA614103FEA00EE4427 /* USPresidents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB5ADA914103FEA00EE4427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB5ADAA14103FEA00EE4427 /* UIKit.framework */,
+				6DB5ADAC14103FEA00EE4427 /* Foundation.framework */,
+				6DB5ADAE14103FEA00EE4427 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DB5ADB014103FEA00EE4427 /* USPresidents */ = {
+			isa = PBXGroup;
+			children = (
+				6DB5ADB914103FEA00EE4427 /* USPresidentsAppDelegate.h */,
+				6DB5ADBA14103FEA00EE4427 /* USPresidentsAppDelegate.m */,
+				6DB5ADBC14103FEA00EE4427 /* MainWindow.xib */,
+				6DB5ADBF14103FEA00EE4427 /* USPresidentsViewController.h */,
+				6DB5ADC014103FEA00EE4427 /* USPresidentsViewController.m */,
+				6DB5ADC214103FEA00EE4427 /* USPresidentsViewController.xib */,
+				6DB5ADB114103FEA00EE4427 /* Supporting Files */,
+			);
+			path = USPresidents;
+			sourceTree = "<group>";
+		};
+		6DB5ADB114103FEA00EE4427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DB5ADB214103FEA00EE4427 /* USPresidents-Info.plist */,
+				6DB5ADB314103FEA00EE4427 /* InfoPlist.strings */,
+				6DB5ADB614103FEA00EE4427 /* USPresidents-Prefix.pch */,
+				6DB5ADB714103FEA00EE4427 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB5ADA514103FEA00EE4427 /* USPresidents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB5ADC714103FEA00EE4427 /* Build configuration list for PBXNativeTarget "USPresidents" */;
+			buildPhases = (
+				6DB5ADA214103FEA00EE4427 /* Sources */,
+				6DB5ADA314103FEA00EE4427 /* Frameworks */,
+				6DB5ADA414103FEA00EE4427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USPresidents;
+			productName = USPresidents;
+			productReference = 6DB5ADA614103FEA00EE4427 /* USPresidents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB5AD9D14103FEA00EE4427 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6DB5ADA014103FEA00EE4427 /* Build configuration list for PBXProject "USPresidents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DB5AD9B14103FEA00EE4427;
+			productRefGroup = 6DB5ADA714103FEA00EE4427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB5ADA514103FEA00EE4427 /* USPresidents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB5ADA414103FEA00EE4427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB5ADB514103FEA00EE4427 /* InfoPlist.strings in Resources */,
+				6DB5ADBE14103FEA00EE4427 /* MainWindow.xib in Resources */,
+				6DB5ADC414103FEA00EE4427 /* USPresidentsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB5ADA214103FEA00EE4427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB5ADB814103FEA00EE4427 /* main.m in Sources */,
+				6DB5ADBB14103FEA00EE4427 /* USPresidentsAppDelegate.m in Sources */,
+				6DB5ADC114103FEA00EE4427 /* USPresidentsViewController.m in Sources */,
+				6DB5ADCC1410426C00EE4427 /* Presidents4.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DB5ADB314103FEA00EE4427 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB5ADB414103FEA00EE4427 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6DB5ADBC14103FEA00EE4427 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB5ADBD14103FEA00EE4427 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6DB5ADC214103FEA00EE4427 /* USPresidentsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB5ADC314103FEA00EE4427 /* en */,
+			);
+			name = USPresidentsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DB5ADC514103FEA00EE4427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DB5ADC614103FEA00EE4427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6DB5ADC814103FEA00EE4427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "USPresidents/USPresidents-Prefix.pch";
+				INFOPLIST_FILE = "USPresidents/USPresidents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6DB5ADC914103FEA00EE4427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "USPresidents/USPresidents-Prefix.pch";
+				INFOPLIST_FILE = "USPresidents/USPresidents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB5ADA014103FEA00EE4427 /* Build configuration list for PBXProject "USPresidents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB5ADC514103FEA00EE4427 /* Debug */,
+				6DB5ADC614103FEA00EE4427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB5ADC714103FEA00EE4427 /* Build configuration list for PBXNativeTarget "USPresidents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB5ADC814103FEA00EE4427 /* Debug */,
+				6DB5ADC914103FEA00EE4427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB5AD9D14103FEA00EE4427 /* Project object */;
+}
